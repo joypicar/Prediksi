@@ -26,5 +26,36 @@
 }
 
 * {
-	font-family: "Brandon" !important;
+	font-family: "Brandon";
+	letter-spacing: 2px;
+	text-transform: uppercase;
+
+}
+
+ion-app {
+	background-color: #0f698d;
+}
+.content-md {
+	background-color: #5396b1;
+}
+
+.button-md {
+	background-color: #55c1c1;
+}
+
+.item-md {
+	background-color: #0f698d;
+}
+
+.custom {
+	background-color: #0f698d !important;
+}
+
+.list-md .item-block .item-inner {
+	border-bottom: 1px solid #5396b1;
+}
+
+.button-md {
+	box-shadow: none;
+	border-radius: 20px;
 }

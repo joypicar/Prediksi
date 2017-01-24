@@ -33,6 +33,8 @@ export class MyApp {
       // Here you can do any higher level native things you might need.
       StatusBar.styleDefault();
       Splashscreen.hide();
+      StatusBar.overlaysWebView(true); // let status bar overlay webview
+      StatusBar.backgroundColorByHexString('#0f698d'); // set status bar to white
     });
   }
 
@@ -42,3 +44,4 @@ export class MyApp {
     this.nav.setRoot(page.component);
   }
 }
+
