@@ -14,3 +14,17 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+
+@font-face {font-family: "Brandon";
+  src: url("../assets/fonts/Brandon.eot"); /* IE9*/
+  src: url("../assets/fonts/Brandon.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../assets/fonts/Brandon.woff2") format("woff2"), /* chrome、firefox */
+  url("../assets/fonts/Brandon.woff") format("woff"), /* chrome、firefox */
+  url("../assets/fonts/Brandon.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("Brandon.svg#Brandon Text W01 Light") format("svg"); /* iOS 4.1- */
+}
+
+* {
+	font-family: "Brandon" !important;
+}
