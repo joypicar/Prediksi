@@ -32,6 +32,10 @@
 
 }
 
+.clearfix {
+	clear: both;
+}
+
 ion-app {
 	background-color: #0f698d;
 }
@@ -43,7 +47,7 @@ ion-app {
 	background-color: #55c1c1;
 }
 
-.item-md {
+#side-menu .item-md {
 	background-color: #0f698d;
 }
 
@@ -51,11 +55,79 @@ ion-app {
 	background-color: #0f698d !important;
 }
 
-.list-md .item-block .item-inner {
+#side-menu .list-md .item-block .item-inner {
 	border-bottom: 1px solid #5396b1;
 }
 
 .button-md {
 	box-shadow: none;
 	border-radius: 20px;
+}
+
+.item-md {
+	padding-left: 0;
+}
+
+.item-md.item-block .item-inner {
+	padding-left: 8px;
+}
+
+//Prediksi (Page1)
+.item-md {
+	background-color: #5396b1;
+}
+
+.list-md .item-block .item-inner {
+	border-bottom: 1px solid #79bcd7;
+}
+
+.Page1 h2, .Page1 h3 {
+	text-align: center;
+}
+
+.Page1 .date {
+	margin-top: 5px;
+	float: left;
+}
+
+.Page1 .btn-share {
+	float: right;
+	padding: 5px 10px;
+}
+
+.Page1 .score {
+	padding: 10px;
+	margin: 0 auto !important;
+	width: 100px;
+	display: block;
+	border: 1px solid #79bcd7;
+	border-radius: 20px;
+}
+
+.Page1 .win {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+//Standings (Page2)
+#standings-head ion-col {
+	padding: 15px 5px;
+	background-color: #0f698d;
+}
+
+.standings-row:nth-child(even) {
+	background-color: #55c1c1;
+}
+
+//News (Page3)
+.Page3 .item-md h2 {
+	font-weight: bold;
+}
+
+.Page3 .item-md p {
+	color: #fff;
+}
+
+.Page3 .list-md .item-block .item-inner {
+	margin: 0 20px;
 }

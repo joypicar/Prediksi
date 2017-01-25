@@ -16,7 +16,7 @@
 <ion-grid>
 
 
- <ion-row>
+ <ion-row id="standings-head">
     <ion-col class="center" width-25>
       <strong>Tim</strong>
     </ion-col>
@@ -40,7 +40,7 @@
     </ion-col>
   </ion-row>
 
- <ion-row *ngFor="let post of posts" class="active">
+ <ion-row *ngFor="let post of posts" class="active standings-row">
     <ion-col class="center" width-25>
       <strong>{{post.Team}}</strong>
     </ion-col>
