@@ -12,7 +12,7 @@ export class Page2 {
  
   constructor(public http: Http) {
  
-    this.http.get('http://prediksi-ligainggris.info/api/json_fixtures_API_mobile_standings.php').map(res => res.json()).subscribe(data => {
+    this.http.get('http://prediksiligainggris.info/api/json_fixtures_API_mobile_standings_test.php').map(res => res.json()).subscribe(data => {
         this.posts = data.results;
     });
  

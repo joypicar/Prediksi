@@ -6,63 +6,66 @@
     <ion-title>Standings</ion-title>
   </ion-navbar>
 </ion-header>
-
-
-
-
- 
 <ion-content class="Page2">
-
 <ion-grid>
-
-
  <ion-row>
+   <ion-col class="center">
+     </ion-col> 
+   <ion-col class="center">
+      <strong>Image</strong>
+    </ion-col>
     <ion-col class="center" width-25>
       <strong>Tim</strong>
     </ion-col>
-    <ion-col class="center">
+    <ion-col class="center" width-10>
       <strong>P</strong>
     </ion-col>
-    <ion-col class="center">
+    <ion-col class="center" width-10>
       <strong>W</strong>
     </ion-col>
-	<ion-col class="center">
+	<ion-col class="center"width-10>
       <strong>D</strong>
     </ion-col>
-	<ion-col class="center">
+	<ion-col class="center" width-10>
       <strong>Goal</strong>
     </ion-col>
-	<ion-col class="center">
+	<ion-col class="center" width-10>
       <strong>DI</strong>
     </ion-col>
-	<ion-col class="center">
+	<ion-col class="center" width-10>
       <strong>PO</strong>
     </ion-col>
   </ion-row>
 
  <ion-row *ngFor="let post of posts" class="active">
+
+
+	<ion-col class="center">
+      <ion-img width="30" height="30"src="assets/images/{{post.Image_logo}}"></ion-img>
+    </ion-col>
     <ion-col class="center" width-25>
       <strong>{{post.Team}}</strong>
     </ion-col>
-    <ion-col class="center">
+	
+    <ion-col class="center"  width-10>
       <strong>{{post.Pl}}</strong>
     </ion-col>
-    <ion-col class="center">
+    <ion-col class="center  width-10">
       <strong>{{post.W}}</strong>
     </ion-col>
-	<ion-col class="center">
+	<ion-col class="center"  width-10>
       <strong>{{post.D}}</strong>
     </ion-col>
-	<ion-col class="center">
+	<ion-col class="center"  width-10>
       <strong>{{post.L}}</strong>
     </ion-col>
-	<ion-col class="center">
+	<ion-col class="center"  width-10>
       <strong>{{post.F}}</strong>
     </ion-col>
-	<ion-col class="center">
+	<ion-col class="center"  width-10>
       <strong>{{post.A}}</strong>
     </ion-col>
-	<ion-col class="center">
+	<ion-col class="center"  width-10>
       <strong>{{post.Pts}}</strong>
     </ion-col>
   </ion-row>
