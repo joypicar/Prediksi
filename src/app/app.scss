@@ -56,7 +56,7 @@ ion-app {
 }
 
 #side-menu .list-md .item-block .item-inner {
-	border-bottom: 1px solid #5396b1;
+	border-bottom: 1px solid #5396b1 !important;
 }
 
 .button-md {
@@ -66,6 +66,7 @@ ion-app {
 
 .item-md {
 	padding-left: 0;
+	background-color: #5396b1;
 }
 
 .item-md.item-block .item-inner {
@@ -130,4 +131,18 @@ ion-app {
 
 .Page3 .list-md .item-block .item-inner {
 	margin: 0 20px;
+}
+
+//Post-details
+ion-card-content {
+	background-color: #5396b1;	
+}
+
+ion-card {
+	box-shadow: none !important;
+}
+
+ion-card-content p {
+	text-transform: none;
+	font-size: 1.5em;
 }
