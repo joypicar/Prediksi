@@ -37,11 +37,11 @@
     </ion-col>
   </ion-row>
 
- <ion-row *ngFor="let post of posts" class="active">
+ <ion-row *ngFor="let post of posts" class="active standings-row">
 
 
 	<ion-col class="center">
-      <ion-img width="30" height="30"src="assets/images/{{post.Image_logo}}"></ion-img>
+      <ion-img width="30" height="30"src="{{post.Image_logo}}"></ion-img>
     </ion-col>
     <ion-col class="center" width-25>
       <strong>{{post.Team}}</strong>
@@ -74,3 +74,14 @@
 	
     
 </ion-content>
+
+
+
+
+
+
+
+
+
+
+
