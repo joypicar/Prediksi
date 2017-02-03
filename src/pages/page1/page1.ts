@@ -50,7 +50,7 @@ export class Page1 {
   otherShare(){
     SocialSharing.share("Genral Share Sheet",null/*Subject*/,null/*File*/,"http://prediksiligainggris.info/")
     .then(()=>{
-        alert("Success");
+       // alert("Success");
       },
       ()=>{
          alert("failed")
